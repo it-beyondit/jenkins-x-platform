@@ -2,7 +2,7 @@ dependencies:
 - condition: jenkins.enabled
   name: jenkins
   repository: https://kubernetes-charts.storage.googleapis.com
-  version: 0.40.0
+  version: 2.235.3
 - alias: expose
   condition: expose.enabled
   name: exposecontroller
